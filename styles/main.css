@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: .5rem;
+    height: 150px;
+    background-color: darkblue;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+.section_fish {
+    margin: .5rem;
+    padding: .5rem;
+    border-bottom: solid darkblue;
+}
+
+.fish {
+    border-top: dotted .5px darkblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section_quotes {
+    margin: .5rem;
+    padding: .5rem;
+    border-bottom: solid darkblue;
+}
+
+.section_locations {
+    margin: .5rem;
+    padding: .5rem;
+    border-bottom: solid darkblue;
+}
+
+.aside_care_tips {
+    margin: .5rem;
+    padding: .5rem;
+    border-left: solid darkblue
+}
