@@ -54,3 +54,7 @@ img {
     padding: .5rem;
     border-left: solid darkblue
 }
+
+li {
+    margin: 10px;
+}
